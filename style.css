@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#naslov{
+    color: rgb(17, 0, 255);
+    background-color: black;
+}
+#podnaslov{
+    color: crimson;
+    font-size: 70px;
+    background-color: none ;
+}
+.recepti{
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(255, 0, 0);
+}
+.recepti.pizza{
+    text-align: center;
+}
+.sandwitch,
+.pizza{
+    color: yellow;
+}
+*{
+    background-color: black;
+    color: yellow;
+}
+.slika{
+    width: 20;
+    height: 20;
+}
+.button{
+    box-sizing: calc(300 300);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}

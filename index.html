@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>Recepti</title>
+  
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <h1>Odin Recipes</h1>
-    <h3>Lista recepata:</h3>
+    <div id="naslov"><h1>Odin Recipes</h1></div>
+    <div id="podnaslov"><h3>Lista recepata:</h3></div>
     <ol>
         <!-- Dodavanje linkova od povezanih stranice. 
         Potrebno ih je napraviti u listi da budu jedna ispod druge.-->
-        <li><a href="recipes/lasagna.html">Lazanje</a></li>
+        <li><div class="recepti lazanje"><a href="recipes/lasagna.html">Lazanje</a></div></li>
         
-        <li><a href="recipes/pizza.html">Pizza</a></li>
+        <li><div class="recepti pizza"><a href="recipes/pizza.html">Pizza</a></div></li>
         
-        <li><a href="recipes/sandwitch.html">Sandwitch</a></li>
+        <li><div class="recepti sandwitch"><a href="recipes/sandwitch.html">Sandwitch</a></li></div></li>
     </ol>
+    <img  class="slika" src="./pictures/kuca.jpeg" alt="slika kuce">
+    <div class="button"><a href="https://www.youtube.com/"><button>sss</button></a></div>
+    <div class="button"><a href="./recipes/lasagna.html"><button>lazanje</button></a></div>
 </body>
 </html>
